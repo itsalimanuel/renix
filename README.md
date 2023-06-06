@@ -27,7 +27,17 @@ import { Button } from 'renix';
 ```jsx
 <Button text="Click me" />
 ```
-
+# Make sure to Install Tailwind CSS
+```jsx
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./packages/**/*.{html,js.ts.tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+``` 
 ## Available Components
 
 Renix UI Component Library provides a growing set of components for building web applications. Here's a list of the components that are currently available:
