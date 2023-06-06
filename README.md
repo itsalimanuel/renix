@@ -29,6 +29,7 @@ import { Button } from 'renix';
 ```
 # Make sure to Install Tailwind CSS
 ```jsx
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./packages/**/*.{html,js.ts.tsx}"],
