@@ -13,13 +13,13 @@ npm i renix
 ```
 PNPM: 🎆
 ```
-pnpm i renix-ui
+pnpm i renix
 ```
 
 2. Import the component you want to use in your project:
 
 ```javascript
-import { Button } from 'renix-ui';
+import { Button } from 'renix';
 ```
 
 3. Use the component in your React code:
