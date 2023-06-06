@@ -13,13 +13,13 @@ npm i renix
 ```
 PNPM: 🎆
 ```
-pnpm i renix 
+pnpm i renix-ui
 ```
 
 2. Import the component you want to use in your project:
 
 ```javascript
-import { Button } from 'renix';
+import { Button } from 'renix-ui';
 ```
 
 3. Use the component in your React code:
@@ -27,7 +27,7 @@ import { Button } from 'renix';
 ```jsx
 <Button text="Click me" />
 ```
-# Make sure to Install Tailwind CSS
+## ❕ Make sure to Install Tailwind CSS
 ```jsx
 
 /** @type {import('tailwindcss').Config} */
