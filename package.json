@@ -1,0 +1,80 @@
+{
+  "version": "0.3.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "npm run build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css --minify",
+    "build:pack": "tsdx build && npm run build-tailwind"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "renix-ui",
+  "author": "itsalimanuel",
+  "module": "dist/renix-ui.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/renix-ui.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/renix-ui.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@size-limit/preset-small-lib": "^8.2.4",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/addons": "^7.0.18",
+    "@storybook/react": "^7.0.18",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "size-limit": "^8.2.4",
+    "tailwindcss": "^3.3.2",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@storybook/addon-postcss": "^2.0.0",
+    "renix-ui": "^0.3.0"
+  }
+}
