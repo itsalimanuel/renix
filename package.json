@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -74,7 +74,6 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "@storybook/addon-postcss": "^2.0.0",
-    "renix-ui": "^0.3.0"
+    "@storybook/addon-postcss": "^2.0.0"
   }
 }
