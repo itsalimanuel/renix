@@ -1,4 +1,6 @@
-# Renix 🎇
+# Renix 🎇.
+ [![npm](https://img.shields.io/npm/dt/renix.svg)](https://www.npmjs.com/package/renix)
+
 
 Renix UI Component Library is a collection of reusable UI components designed for building modern web applications using React, Next.js, and Remix. The library provides a set of high-quality components that are customizable and easy to use, helping developers create responsive and visually appealing web applications quickly and efficiently.
 
