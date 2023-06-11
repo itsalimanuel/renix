@@ -57,6 +57,7 @@ Renix UI Component Library provides a growing set of components for building web
 - Alert
 - Loading
 - BackToTop
+- Tooltip
 
 
 ## Roadmap
@@ -87,7 +88,6 @@ Renix UI Component Library is still under development, and there are more compon
 - Message Box
 - Radio
 - Switch
-- Tooltip
 - Toast
 - Navbar
 - Sidebar

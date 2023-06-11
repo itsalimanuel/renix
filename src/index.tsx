@@ -13,3 +13,4 @@ export * from './packages/Tabs';
 export * from './packages/BackToTop';
 export * from './packages/Alert';
 export * from './packages/Loading';
+export * from './packages/Tooltip';
